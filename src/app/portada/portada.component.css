@@ -1,0 +1,29 @@
+/*---INTRO---*/
+/*.container-2{
+  width:100vh;
+  margin-top:10px;
+  padding:20px;
+  position:relative;
+  z-index:1080;
+  background-color:transparent;
+}*/
+.caratula-intro{
+    height: 100vh;
+    background-color: transparent !important;
+    border:none !important;
+    border-radius:none !important;
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+    -moz-box-shadow:none !important;
+  }
+  
+  .intro{
+    text-shadow: #69014b 3px 2px 10px;
+  }
+  h1.intro{
+    font-size: 3rem;
+  }
+  h3.intro{
+    padding-top:30%;
+  }
+  /*---FIN INTRO---*/

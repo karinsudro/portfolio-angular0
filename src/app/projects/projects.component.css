@@ -1,0 +1,15 @@
+/*--CARDS PROJECTS--*/
+.btn-project{
+    margin-left: 1rem;
+    margin-right:1rem;
+  }
+  .card-proy:hover{
+    transform: translate(-7px, -7px);
+    box-shadow: 1px 6px 14px 2px #69014bbf;
+    -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+    transition: .5s;
+  }
+  .proy-sep-abajo{
+    margin-bottom: 5rem;
+  }

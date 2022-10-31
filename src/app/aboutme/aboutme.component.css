@@ -1,0 +1,23 @@
+/*---SECCION ABOUT ME---*/
+.bio-image-col{
+    align-items:center;
+  }
+  
+  .bio-title{
+    text-align: center;
+    font-size:.75em;
+  }
+
+  .rounded-circle{
+    border: 3px solid #69014bbf;
+    box-shadow: 1px 6px 10px 2px #69014bbf;
+    -webkit-box-shadow: 1px 6px 10px 2px #af014bbf;
+    -moz-box-shadow: 1px 6px 10px 2px #af014bbf;
+  }
+  .rounded-circle:hover{
+    transform: translate(-7px, -7px);
+    box-shadow: 1px 6px 14px 2px #69014bbf;
+    -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+    transition: .5s;
+  }

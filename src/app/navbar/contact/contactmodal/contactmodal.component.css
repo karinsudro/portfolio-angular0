@@ -1,0 +1,14 @@
+.login-base{
+    margin-top: 0;
+  }
+  
+  .armado-login{
+    margin-top: 15%;
+  }
+  .contact{
+    margin-top: 10% !important;
+  }
+  input::placeholder{
+    font-style: italic;
+    font-size: .9em;
+  }

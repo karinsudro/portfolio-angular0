@@ -1,0 +1,38 @@
+/*--- NAVBAR ---*/
+nav.navbar{
+    position:fixed;
+    width:100%;
+    z-index:1200;
+    background-color: #fff;
+    box-shadow: 1px 6px 14px 2px #69014bbf;
+    -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
+    -ms-box-shadow: 1px 6px 14px 2px #af014bbf;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+  /*color: var(--bs-list-group-color);*/
+  color: #505050;
+  /* text-decoration: none; */
+  background-color: var(--bs-list-group-bg);
+  /* border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color); */
+  border:none;
+}
+
+a, a:hover{
+    text-decoration: none;
+  }
+  /*--ICONOS NAVBAR--*/
+  .fa-brands.fa-linkedin:hover,
+  .fa-solid.fa-house:hover,
+  .fa-brands.fa-github:hover,
+  .fa-solid.fa-comment:hover,
+  .fa-solid.fa-user-lock:hover,
+  .fa-solid.fa-user:hover,
+  .fa-solid.fa-user-lock:hover,
+  .fa-solid.fa-right-to-bracket:hover{
+    color: #f7a61a;
+  }
