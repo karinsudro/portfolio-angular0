@@ -1,3 +1,4 @@
+
 /*---ADMIN---*/
 .container-fluid-modal{
     text-align: left !important;
@@ -26,22 +27,25 @@
     width: 50%;;
   }
   
-  .btn-guardar{
-    background-color: #2c9011;
-    color: #fff;
-  }
-  .btn-cancelar{
-    background-color: #ab0c0c;
-    color: #fff;
-  }
-  .fa-circle-plus:hover{
+  .fa-plus:hover{
     color:#f71aa6;
   }
-  .fa-circle-check:hover{
+  .fa-pencil:hover{
     color:#2c9011;
   }
-  .fa-circle-xmark:hover{
+  .fa-trash-can-arrow-up:hover{
     color:#ab0c0c;
+  }
+  .fa-xmark:hover{
+    color:#f1ee06;
+  }
+  
+  .btn-form-cierre{
+    margin-top: -1.2rem;
+    margin-left:1rem;
+    text-decoration: none;
+    background-color:transparent;
+    border: none;
   }
   
   textarea::placeholder{
@@ -68,3 +72,4 @@
   a, a:hover{
     text-decoration: none;
   }
+  

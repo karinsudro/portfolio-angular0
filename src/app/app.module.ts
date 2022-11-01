@@ -13,22 +13,21 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent} from './navbar/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { AdminComponent } from './admin/admin.component';
 import { ErrorComponent } from './error/error.component';
 import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './navbar/login/login.component';
 import { NavbaradminComponent } from './navbaradmin/navbaradmin.component';
-import { AdminaboutmeComponent } from './adminaboutme/adminaboutme.component';
 import { LogoapComponent } from './navbar/logoap/logoap.component';
 import { HomeComponent } from './navbar/home/home.component';
 import { LinkedinComponent } from './navbar/linkedin/linkedin.component';
 import { GithubComponent } from './navbar/github/github.component';
-import { LoginmodalComponent } from './navbar/login/loginmodal/loginmodal.component';
-import { ContactmodalComponent } from './navbar/contact/contactmodal/contactmodal.component';
 import { LogoapadminComponent } from './navbaradmin/logoapadmin/logoapadmin.component';
 import { LogoutComponent } from './navbaradmin/logout/logout.component';
 import { HomeeadminComponent } from './navbaradmin/homeeadmin/homeeadmin.component';
-import { RegistermodalComponent } from './navbar/login/loginmodal/registermodal/registermodal.component';
+import { LoginmodallComponent } from './navbar/loginmodall/loginmodall.component';
+import { ContactmodallComponent } from './navbar/contactmodall/contactmodall.component';
+import { RegistermodallComponent } from './navbar/registermodall/registermodall.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -44,22 +43,21 @@ import { RegistermodalComponent } from './navbar/login/loginmodal/registermodal/
     ContactComponent,
     FooterComponent,
     ProjectsComponent,
-    AdminComponent,
     ErrorComponent,
     IndexComponent,
     LoginComponent,
     NavbaradminComponent,
-    AdminaboutmeComponent,
     LogoapComponent,
     HomeComponent,
     LinkedinComponent,
     GithubComponent,
-    LoginmodalComponent,
-    ContactmodalComponent,
     LogoapadminComponent,
     LogoutComponent,
     HomeeadminComponent,
-    RegistermodalComponent,
+    LoginmodallComponent,
+    ContactmodallComponent,
+    RegistermodallComponent,
+    AdminComponent,
 
   ],
   imports: [
