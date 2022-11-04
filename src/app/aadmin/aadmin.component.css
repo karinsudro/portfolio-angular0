@@ -1,23 +1,47 @@
 /*---ADMIN---*/
-.container-fluid-modal{
-    text-align: left !important;
-    width: 75%;
-    margin-top: 7rem;
-    padding-left: 3rem;
-    background-color: transparent !important;
-    border:none !important;
-    border-radius:none !important;
-    box-shadow:none !important;
-    -webkit-box-shadow:none !important;
-    -moz-box-shadow:none !important;
+
+/*--NAV LATERAL DERECHO--*/
+  .nav-vertical{
+    margin-right: 1rem;
+    margin-top:0rem;
+    align-items: center;
+    float:right;
+    text-decoration: none;
+    writing-mode: vertical;
+    height: 70vh;
   }
-  .admin-siguiente{
-    margin-top: 3rem !important;
+  .logo-ap-admin-vertical{
+    max-width: 2.3em;
   }
-  
+  .alin-vertical{
+    margin-top:2.2rem;
+  }
+
+
+/*--ADMIN PANEL DAMERO--*/
+.aadmin-panel{
+  width:70%;
+  margin-bottom:15px;
+  position:relative;
+}
+
+.admin-iconos{
+  position: relative;
+  display: block;
+}
+
+.aadmin-iconos:hover{
+  color:#fff;
+}
+
+
   .admin{
     margin-top: 20px;
   }
+  .aadmin{
+    margin-top: 7rem !important;
+  }
+  
   
   .links{
     text-decoration: none;
@@ -26,6 +50,7 @@
     width: 50%;;
   }
   
+  /*--BOTONES FORMULARIOS--*/
   .fa-plus:hover{
     color:#f71aa6;
   }
@@ -39,51 +64,25 @@
     color:#f1ee06;
   }
   
-  .btn-form-cierre{
-    margin-top: -1.2rem;
-    margin-left:1rem;
-    text-decoration: none;
-    background-color:transparent;
-    border: none;
-  }
-  
   textarea::placeholder{
     font-style: italic;
     font-size: .9em;
   }
   
   
-  /*---NAVEG LATERAL MENU---*/
-  nav.vertical{
-    float: left;
-    margin-left: -1rem;
-    margin-top: 4rem;
-    align-items: center;
-    position: fixed;
+
+
+  ul{
+    text-decoration: none;
   }
-  li.vertical{
-    display:block;
-    margin:0;
-    writing-mode:vertical;
-    padding:1rem;
-    font-size:1.2rem;
-  }
+
+
+
+ 
   a, a:hover{
     text-decoration: none;
   }
-  
-  .aadmin-iconos:hover{
-    color:#2148f7;
-  }
 
-  .aadmin{
-    margin-top: 7rem !important;
-  }
+
   
-  
-  .aadmin-panel{
-    width:70%;
-    margin-bottom:15px;
-    position:relative;
-    
-  }
+

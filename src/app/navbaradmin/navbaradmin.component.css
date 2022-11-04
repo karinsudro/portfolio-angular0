@@ -1,31 +1,16 @@
-/*--- NAVBAR ---*/
-nav.navbar{
-    position:fixed;
-    width:100%;
-    z-index:1200;
-    background-color: #fff;
-    box-shadow: 1px 6px 14px 2px #69014bbf;
-    -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
-    -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
-    -ms-box-shadow: 1px 6px 14px 2px #af014bbf;
+/*--NAV LATERAL DERECHO--*/
+.nav-vertical{
+  margin-right: 1rem;
+  margin-top:0rem;
+  align-items: center;
+  float:right;
+  text-decoration: none;
+  writing-mode: vertical;
+  height: 70vh;
 }
-
-.logo-ap{
-  max-width: 6em;
+.logo-ap-admin-vertical{
+  max-width: 2.3em;
 }
-
-a, a:hover{
-    text-decoration: none;
-  }
-
-  .list-group-item {
-    position: relative;
-    display: block;
-    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
-    /*color: var(--bs-list-group-color);*/
-    color: #505050;
-    /* text-decoration: none; */
-    background-color: var(--bs-list-group-bg);
-    /* border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color); */
-    border:none;
-  }
+.alin-vertical{
+  margin-top:2.2rem;
+}

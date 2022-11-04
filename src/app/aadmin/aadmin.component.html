@@ -1,62 +1,63 @@
 <app-navbaradmin></app-navbaradmin>
 
+
 <!--Admin damero-->
 
 <section id="aadmin" class="aadmin">
-
-
+<!--botones que abren los modales-->
     <div class="container aadmin-panel text-center">
+        <!--grupo 1-->
         <div class="row g-2 lg-3">
           <div class="col">
-            <div class="p-2"><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#redesModall">
+            <div class="p-2"><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalRedes">
                 <i class="fa-solid fa-network-wired fa-xl aadmin-iconos"></i>
                          </button></div>
             
           </div>
           <div class="col">
-            <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-panorama fa-xl"></i>
+            <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalPortada">
+                           <i class="fa-solid fa-panorama fa-xl aadmin-iconos"></i>
                          </button></div>
           </div>
           <div class="col">
-            <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-regular fa-address-card fa-xl"></i>
+            <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalAboutme">
+                           <i class="fa-regular fa-address-card fa-xl aadmin-iconos"></i>
                          </button></div>
           </div>
         </div>
-
+        <!--grupo 2-->
         <div class="row g-2 lg-3 mt-3">
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-school-flag fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalTeaching">
+                           <i class="fa-solid fa-school-flag fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-icons fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalDesign">
+                           <i class="fa-solid fa-icons fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-graduation-cap fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalEducation">
+                           <i class="fa-solid fa-graduation-cap fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
           </div>
-
+          <!--grupo 3-->
           <div class="row g-2 lg-3 mt-3">
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-laptop-code fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalSkills">
+                           <i class="fa-solid fa-laptop-code fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-lightbulb fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalProjects">
+                           <i class="fa-solid fa-lightbulb fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
             <div class="col">
-              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#loginModall">
-                           <i class="fa-solid fa-comment fa-lg fa-xl"></i>
+              <div class="p-2 "><button type="button" class="btn list-group-item btn-lg p-5" data-bs-toggle="modal" data-bs-target="#modalContactme">
+                           <i class="fa-solid fa-comment fa-lg fa-xl aadmin-iconos"></i>
                          </button></div>
             </div>
           </div>
@@ -65,79 +66,30 @@
       <app-footer></app-footer>
 </section>
 
-
+<!--MODALES-->
 <!-- REDES Modal -->
-<div class="modal fade" id="redesModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-  
-        <!--REDES-->
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModal"></h5>
-
-        <div class="container-fluid">
-         <div class="login-base">
-           <div class="contenido-login">
-             <div class="row">
-               <div class="col armado-login">
-                 <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                          <label for="linkedIn" class="form-label">LinkedIn</label>
-                          <input type="text" class="form-control" id="linkedIn">
-                        </div>
-                        <div class="modal-footer justify-content-center">
-                          <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-                        </div>
-                        <div class="mb-3">
-                          <label for="github" class="form-label">GitHub</label>
-                          <input type="text" class="form-control" id="github">
-                        </div>
-                        <div class="modal-footer justify-content-center">
-                          <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-                        </div>
-                      </form>
-                 </div>
-                
-                  <div class="modal-footer">
-                   <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="#"><i class= "fa-solid fa-circle-xmark"></i></a></button>
-                   <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
-                  </div>
-               </div>
-              
-               
-             </div>
-           </div>
-         </div>
-        </div>
-  
-    </div>
-  </div>
-  </div>
+<app-modalredes></app-modalredes>
 
 <!--PORTADA-->
-
+<app-modalportada></app-modalportada>
 
 <!--ABOUT ME-->
-
+<app-modalaboutme></app-modalaboutme>
 
 <!--TEACHING-->
-
+<app-modalteaching></app-modalteaching>
 
 <!--DESIGN-->
-
+<app-modaldesign></app-modaldesign>
 
 <!--EDUCATION-->
-
+<app-modaleducation></app-modaleducation>
 
 <!--SKILLS-->
-
+<app-modalskills></app-modalskills>
 
 <!--PROJECTS-->
+<app-modalprojects></app-modalprojects>
 
+<!--CONTACT ME-->
+<app-modalcontactme></app-modalcontactme>

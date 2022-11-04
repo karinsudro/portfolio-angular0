@@ -24,10 +24,19 @@ import { GithubComponent } from './navbar/github/github.component';
 import { LogoapadminComponent } from './navbaradmin/logoapadmin/logoapadmin.component';
 import { LogoutComponent } from './navbaradmin/logout/logout.component';
 import { HomeeadminComponent } from './navbaradmin/homeeadmin/homeeadmin.component';
-import { LoginmodallComponent } from './navbar/loginmodall/loginmodall.component';
 import { ContactmodallComponent } from './navbar/contactmodall/contactmodall.component';
-import { RegistermodallComponent } from './navbar/registermodall/registermodall.component';
-import { AdminComponent } from './admin/admin.component';
+import { AadminComponent } from './aadmin/aadmin.component';
+import { ModalloginComponent } from './modals/modallogin/modallogin.component';
+import { ModalredesComponent } from './modals/modalredes/modalredes.component';
+import { ModalportadaComponent } from './modals/modalportada/modalportada.component';
+import { ModalregisterComponent } from './modals/modalregister/modalregister.component';
+import { ModalteachingComponent } from './modals/modalteaching/modalteaching.component';
+import { ModalaboutmeComponent } from './modals/modalaboutme/modalaboutme.component';
+import { ModalcontactmeComponent } from './modals/modalcontactme/modalcontactme.component';
+import { ModaldesignComponent } from './modals/modaldesign/modaldesign.component';
+import { ModaleducationComponent } from './modals/modaleducation/modaleducation.component';
+import { ModalskillsComponent } from './modals/modalskills/modalskills.component';
+import { ModalprojectsComponent } from './modals/modalprojects/modalprojects.component';
 
 
 @NgModule({
@@ -54,10 +63,19 @@ import { AdminComponent } from './admin/admin.component';
     LogoapadminComponent,
     LogoutComponent,
     HomeeadminComponent,
-    LoginmodallComponent,
     ContactmodallComponent,
-    RegistermodallComponent,
-    AdminComponent,
+    AadminComponent,
+    ModalloginComponent,
+    ModalredesComponent,
+    ModalportadaComponent,
+    ModalregisterComponent,
+    ModalteachingComponent,
+    ModalaboutmeComponent,
+    ModalcontactmeComponent,
+    ModaldesignComponent,
+    ModaleducationComponent,
+    ModalskillsComponent,
+    ModalprojectsComponent,
 
   ],
   imports: [
