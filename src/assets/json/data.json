@@ -1,3 +1,4 @@
+
 {
     "portada":{
         "hola": "¡Hola! Yo soy",
@@ -211,5 +212,4 @@
             "repo": "URL repositorio"
         }
     ]
-
 }
