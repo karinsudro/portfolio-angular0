@@ -6,22 +6,17 @@
             <p class="texto-centrado"><i>Estas son algunas de mis habilidades:</i></p>
          
   <!--BARRAS CON PORCENTAJES -->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center" *ngFor="let progreso of skills">
                 <div class="col-xs-9 col-sm-9 col-md-9">
 
-                  <!--<span><i class="fa-brands fa-html5"></i>{{progreso.skill}}</span>-->
-                  <!--<span *ngFor="let skill of skills"><i [ngClass]="skill.icono"></i> {{skill.skill}}</span>-->
+                    <span><i [ngClass]="progreso.icono"></i> {{progreso.skill}}</span>
+                        <div class="progress grosor mb-2" > 
 
-                <!--itera sobre variable de instancia y presenta los datos mediante interpolación-->
-                  <div *ngFor="let programas of skills"> 
-                    <span><i class="programas.icono"></i> {{programas.skill}}</span>
-                      
-                        <div class="progress grosor"> 
-                        <div  *ngFor="let progreso of skills" class="progreso.color" role="progressbar"  aria-label="Basic Example" aria-valuenow="progreso.progress" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div  [ngClass]="progreso.color" role="progressbar"  aria-label="Basic Example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" [style.width.%]="progreso.progress">
+                            </div>
                         </div>
+
                         </div>
-                      
-                  </div> 
 
                 </div>  
               </div>
