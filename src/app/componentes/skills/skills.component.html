@@ -1,0 +1,29 @@
+<!---HARD & SOFT SKILLS: PROGRAMAS E IDIOMAS-->  
+<div class="container caja justify-content-center">
+    <h3 class="titulo-centrado">Soft & Hard Skills</h3>
+        <div class="row justify-content-center">
+          <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
+            <p class="texto-centrado"><i>Estas son algunas de mis habilidades:</i></p>
+         
+  <!--BARRAS CON PORCENTAJES -->
+              <div class="row justify-content-center">
+                <div class="col-xs-9 col-sm-9 col-md-9">
+
+                  <!--<span><i class="fa-brands fa-html5"></i>{{progreso.skill}}</span>-->
+                  <!--<span *ngFor="let skill of skills"><i [ngClass]="skill.icono"></i> {{skill.skill}}</span>-->
+
+                <!--itera sobre variable de instancia y presenta los datos mediante interpolación-->
+                  <div *ngFor="let programas of skills"> 
+                    <span><i class="programas.icono"></i> {{programas.skill}}</span>
+                      
+                        <div class="progress grosor"> 
+                        <div  *ngFor="let progreso of skills" class="progreso.color" role="progressbar"  aria-label="Basic Example" aria-valuenow="progreso.progress" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        </div>
+                      
+                  </div> 
+
+                </div>  
+              </div>
+        </div>
+  </div>
