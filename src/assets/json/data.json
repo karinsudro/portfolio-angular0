@@ -1,0 +1,215 @@
+{
+    "portada":{
+        "hola": "¡Hola! Yo soy",
+        "nombre": "Karin",
+        "apellido": "Suchowlanski Drobiner",
+        "cargo": "Desarrolladora Web Full Stack Jr."
+    },
+
+    "aboutme":{
+        "titulo" : "Something about me",
+        "foto": "assets/images/fotoBio2.jpg",
+        "saludoA" : "¡Hola! Yo soy Karin.",
+        "saludoB": "Me apasiona aprender y enseñar, la tecnología, el diseño y la astronomía.",
+        "saludoC": "Mi meta es crecer y afianzarme profesionalmente como",
+        "saludoD": "Desarrolladora Web Full Stack Jr.",
+        "saludoE": "Busco formarme, estar actualizada, utilizando lo aprendido.", 
+        "saludoF": "Soy una persona curiosa, responsable, creativa, empática, ávida por aprender y descubrir soluciones nuevas.",
+        "saludoG": "Me gustaría ser parte de un equipo y proyectos que me permitan seguir desarrollándome como profesional, mejorar mis habilidades y colaborar para lograr los objetivos."
+    },
+
+    "teaching":[
+        {
+            "titulo": "Teaching experience"
+        },
+        {
+            "id": 3,
+            "lugar": "GoINTEC (Ministerio de Educación C.A.B.A.)",
+            "fechas": "2011 - actualidad",
+            "cargo": "Soy facilitadora pedagógico digital en nivel primario. Trabajo como par pedagógico del docente, planificando conjuntamente diversas actividades con incorporación de TIC.\n Capacito a niños y a adultos en el uso de las herramientas necesarias para los diferentes dispositivos y web."
+        },
+        {
+            "id": 2,
+            "lugar": "Escuela Dr.Hertz - Iona",
+            "fechas": "2021 - actualidad",
+            "cargo": "Profesora de computación, programación y robótica de niños de 3 a 5 años.\n Enseñando pensamiento computacional, programación por bloques y otras aplicaciones.\n En el área de robótica, utilizando los equipos de Matatalab."
+        },
+        {
+            "id": 1,
+            "lugar": "Escuela Tel Aviv",
+            "fechas": "2008 - 2018",
+            "cargo": "Docente de hebreo nivel primario. Enseñanza de la lectoescritura en el idioma. Armado de libros para practicar."
+        },
+        {
+            "id": 0,
+            "lugar": "Asociación Amigos de la Astronomía",
+            "fechas": "2000 - 2015",
+            "cargo": "Investigación en fotografía electrónica (Meade). Visitas astronómicas guiadas para público general. Atención de contingentes escolares (visitas educativas)"
+        }
+    ],
+
+    "design":[
+        {
+            "titulo": "Graphic designer experience"
+        },
+        {
+            "id": 2,
+            "lugar": "Tecno Design",
+            "fechas": "2020 - 2021",
+            "cargo": "Cambios en el código del sitio. Apertura y manejo de redes sociales."
+        },
+        {
+            "id": 1,
+            "lugar": "Trabajos varios",
+            "fechas": "1994 - actualidad",
+            "cargo": "Trabajos varios de diseño: logotipos, sitios web, diseño editorial, entre otros."
+        },
+        {
+            "id": 0,
+            "lugar": "Asociación Amigos de la Astronomía",
+            "fechas": "2000 - 2015",
+            "cargo": "Diseño gráfico de algunos ejemplares de la revista institucional y especiales para número aniversario (cd, portada contenedor, evista)."
+        }
+    ],
+
+    "education":[
+        {
+            "titulo": "Education"
+        },
+        {
+            "id": 3,
+            "carrera": "Desarrolladora Full Stack Jr.",
+            "fechas": "2022",
+            "institucion": "Argentina Programa",
+            "descripcion": "Programa para la formación de desarrolladores Full Stack, donde aprendí muchísimo sobre esta especialización que tanto me apasiona."
+        },
+        {
+            "id": 2,
+            "carrera": "Diseño Gráfico",
+            "fechas": "1991 - 1993",
+            "institucion": "ORT",
+            "descripcion": "Carrera terciaria de la carrera Diseño gráfico. Cursé en una época donde apenas empezaban a utilizarse las computadoras, el diseño era a mano y dedicarse al diseño web, inimaginable."
+        },
+        {
+            "id": 1,
+            "carrera": "Profesorado de hebreo",
+            "fechas": "1990 - 1993",
+            "institucion": "Mijlelet Shazar",
+            "descripcion": "Carrera de profesora de hebreo nivel primario. Hice también materias intensivas en la Universidad de Tel Aviv, en Israel."
+        },
+        {
+            "id": 0,
+            "carrera": "Secundario",
+            "fechas": "1984 - 1988",
+            "institucion": "Instituto Modelo Hebreo Argentino 'Rambam'",
+            "descripcion": "Trayectoria con especialización, bachiller con orientación pedagógica."
+        }
+    ],
+
+    "skills":[
+        {
+            "titulo": "Soft & Hard Skills",
+            "frase": "Estas son algunas de mis habilidades:"
+        },
+        {
+            "id": 0,
+            "skill": "HTML 5",
+            "icono": "fa-brands fa-html5",
+            "progress": "90",
+            "color": "progress-bar-frontend"
+        },
+        {
+            "id": 1,
+            "skill": "CSS 3",
+            "icono": "fa-brands fa-css3-alt",
+            "progress": "90",
+            "color": "progress-bar-frontend"
+        },
+        {
+            "id": 2,
+            "skill": "JAVASCRIPT",
+            "icono": "fa-brands fa-square-js",
+            "progress": "50",
+            "color": "progress-bar-frontend"
+        },
+        {
+            "id": 3,
+            "skill": "BOOTSTRAP",
+            "icono": "fa-brands fa-bootstrap",
+            "progress": "90",
+            "color": "progress-bar-frontend"
+        },
+        {
+            "id": 4,
+            "skill": "ANGULAR",
+            "icono": "fa-brands fa-angular",
+            "progress": "80",
+            "color": "progress-bar-frontend"
+        },
+        {
+            "id": 5,
+            "skill": "BACKEND",
+            "icono": "",
+            "progress": "75",
+            "color": "progress-bar-backend"
+        },
+        {
+            "id": 6,
+            "skill": "PHOTOSHOP",
+            "icono":"",
+            "progress": "90",
+            "color": "progress-bar-design"
+        },
+        {
+            "id": 7,
+            "skill": "INDESIGN",
+            "icono":"",
+            "progress": "90",
+            "color": "progress-bar-design"
+        },
+        {
+            "id": 8,
+            "skill": "ILLUSTRATOR",
+            "icono":"",
+            "progress": "90",
+            "color": "progress-bar-design"
+        },
+        {
+            "id": 9,
+            "skill": "HEBREO",
+            "icono":"",
+            "progress": "90",
+            "color": "progress-bar-language"
+        },
+        {
+            "id": 10,
+            "skill": "INGLES",
+            "icono":"",
+            "progress": "85",
+            "color": "progress-bar-language"
+        }
+    ],
+
+    "projects":[
+        {
+            "titulo": "Projects"
+        },
+        {
+            "id": 0,
+            "imagen": "assets/images/portfolio frente.png",
+            "proyecto": "Portfolio personal",
+            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para 'Argentina Programa #YoProgramo, 3ª cohorte'.",
+            "live_demo": "URL live demo",
+            "repo": "URL repositorio"
+        },
+        {
+            "id": 1,
+            "imagen": "assets/images/portfolio frente.png",
+            "proyecto": "Portfolio personal",
+            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para 'Argentina Programa #YoProgramo, 3ª cohorte'.",
+            "live_demo": "URL live demo",
+            "repo": "URL repositorio"
+        }
+    ]
+
+}
