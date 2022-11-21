@@ -21,9 +21,6 @@
 
     "teaching":[
         {
-            "titulo": "Teaching experience"
-        },
-        {
             "id": 3,
             "lugar": "GoINTEC (Ministerio de Educación C.A.B.A.)",
             "fechas": "2011 - actualidad",
@@ -51,9 +48,6 @@
 
     "design":[
         {
-            "titulo": "Graphic designer experience"
-        },
-        {
             "id": 2,
             "lugar": "Tecno Design",
             "fechas": "2020 - 2021",
@@ -75,9 +69,6 @@
 
     "education":[
         {
-            "titulo": "Education"
-        },
-        {
             "id": 3,
             "carrera": "Desarrolladora Full Stack Jr.",
             "fechas": "2022",
@@ -89,7 +80,7 @@
             "carrera": "Diseño Gráfico",
             "fechas": "1991 - 1993",
             "institucion": "ORT",
-            "descripcion": "Carrera terciaria de la carrera Diseño gráfico. Cursé en una época donde apenas empezaban a utilizarse las computadoras, el diseño era a mano y dedicarse al diseño web, inimaginable."
+            "descripcion": "Carrera terciaria de Diseño gráfico. Cursé en una época donde apenas empezaban a utilizarse las computadoras, el diseño era a mano y dedicarse al diseño web, inimaginable."
         },
         {
             "id": 1,
@@ -108,10 +99,6 @@
     ],
 
     "skills":[
-        {
-            "titulo": "Soft & Hard Skills",
-            "frase": "Estas son algunas de mis habilidades:"
-        },
         {
             "id": 0,
             "skill": "HTML 5",
@@ -193,23 +180,23 @@
 
     "projects":[
         {
-            "titulo": "Projects"
-        },
-        {
             "id": 0,
-            "imagen": "assets/images/portfolio frente.png",
+            "imagen": "assets/images/portfolio_frente.png",
             "proyecto": "Portfolio personal",
-            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para 'Argentina Programa #YoProgramo, 3ª cohorte'.",
+            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para",
+            "descripcion1": "Argentina Programa #YoProgramo, 3ª cohorte.",
             "live_demo": "URL live demo",
             "repo": "URL repositorio"
         },
         {
             "id": 1,
-            "imagen": "assets/images/portfolio frente.png",
+            "imagen": "assets/images/portfolio_frente.png",
             "proyecto": "Portfolio personal",
-            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para 'Argentina Programa #YoProgramo, 3ª cohorte'.",
+            "descripcion": "Armado de portfolio personal utilizando las herramientas aprendidas de FrontEnd y BackEnd para",
+            "descripcion1": "Argentina Programa #YoProgramo, 3ª cohorte.",
             "live_demo": "URL live demo",
             "repo": "URL repositorio"
         }
-    ]
+    ],
+    "robotimg":"assets/images/oops_404_robot.png"
 }
