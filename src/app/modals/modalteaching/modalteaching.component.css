@@ -1,0 +1,38 @@
+.admin{
+    margin-top: 1.25rem;
+  }
+  
+  .links{
+    text-decoration: none;
+  }
+  .fa-plus:hover{
+    color:#f71aa6;
+  }
+  .fa-pencil:hover{
+    color:#2c9011;
+  }
+  .fa-trash-can-arrow-up:hover{
+    color:#ab0c0c;
+  }
+  .fa-xmark:hover{
+    color:#f1ee06;
+  }
+
+  .login-base{
+    margin-top: 0;
+  }
+  
+  .contact{
+    margin-top: 10% !important;
+  }
+  input::placeholder{
+    font-style: italic;
+    font-size: .9em;
+  }
+
+  .aadmin-panel{
+    width:70%;
+    margin-bottom:0.938rem;
+    position:relative;
+    
+  }
