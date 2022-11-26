@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { IndexComponent } from './componentes/index/index.component';
 import { LoginComponent } from './componentes/navbar/login/login.component';
-import { ModalregisterComponent } from './componentes/modals/modalregister/modalregister.component';
+import { ModalregisterComponent } from './modals/modalregister/modalregister.component';
 
 
 

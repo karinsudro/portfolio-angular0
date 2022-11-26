@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 //import { PortfolioService } from './servicios/portfolio.service';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { PortadaComponent } from './componentes/portada/portada.component';
@@ -30,17 +30,18 @@ import { LogoapadminComponent } from './componentes/navbaradmin/logoapadmin/logo
 import { LogoutComponent } from './componentes/navbaradmin/logout/logout.component';
 import { HomeeadminComponent } from './componentes/navbaradmin/homeeadmin/homeeadmin.component';
 import { AadminComponent } from './componentes/aadmin/aadmin.component';
-import { ModalloginComponent } from './componentes/modals/modallogin/modallogin.component';
-import { ModalredesComponent } from './componentes/modals/modalredes/modalredes.component';
-import { ModalportadaComponent } from './componentes/modals/modalportada/modalportada.component';
-import { ModalregisterComponent } from './componentes/modals/modalregister/modalregister.component';
-import { ModalteachingComponent } from './componentes/modals/modalteaching/modalteaching.component';
-import { ModalaboutmeComponent } from './componentes/modals/modalaboutme/modalaboutme.component';
-import { ModaldesignComponent } from './componentes/modals/modaldesign/modaldesign.component';
-import { ModaleducationComponent } from './componentes/modals/modaleducation/modaleducation.component';
-import { ModalskillsComponent } from './componentes/modals/modalskills/modalskills.component';
-import { ModalprojectsComponent } from './componentes/modals/modalprojects/modalprojects.component';
-import { ModalcontactmeComponent } from './componentes/modals/modalcontactme/modalcontactme.component';
+import { ModalloginComponent } from './modals/modallogin/modallogin.component';
+import { ModalredesComponent } from './modals/modalredes/modalredes.component';
+import { ModalportadaComponent } from './modals/modalportada/modalportada.component';
+import { ModalregisterComponent } from './modals/modalregister/modalregister.component';
+import { ModalteachingComponent } from './modals/modalteaching/modalteaching.component';
+import { ModalaboutmeComponent } from './modals/modalaboutme/modalaboutme.component';
+import { ModaldesignComponent } from './modals/modaldesign/modaldesign.component';
+import { ModaleducationComponent } from './modals/modaleducation/modaleducation.component';
+import { ModalskillsComponent } from './modals/modalskills/modalskills.component';
+import { ModalprojectsComponent } from './modals/modalprojects/modalprojects.component';
+import { ModalcontactmeComponent } from './modals/modalcontactme/modalcontactme.component';
+
 
 
 
@@ -86,11 +87,12 @@ import { ModalcontactmeComponent } from './componentes/modals/modalcontactme/mod
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],  //PortfolioService
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
