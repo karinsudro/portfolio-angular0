@@ -5,30 +5,35 @@
 <!----------------------------------->
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModal"></h5>
+      </div>
 
       <div class="container-fluid">
        <div class="login-base">
          <div class="contenido-login">
            <div class="row">
              <div class="col armado-login">
+              <form name="aboutmeForm">
+
                <div class="modal-body">
-                  <form>
+                  
                       <div class="mb-3">
-                        <label for="imagenAbout" class="form-label">Imagen personal</label>
-                        <input type="file" class="form-control" id="imagenAbout" placeholder="URL de la imagen">
+                        <label for="aboutmeImagen" class="form-label"><i>Imagen personal</i></label>
+                        <input type="file" class="form-control" id="aboutmeImagen" placeholder="URL de la imagen">
                       </div>
                       <div class="mb-3">
-                        <label for="about" class="form-label">Algo más sobre mí</label>
-                        <textarea class="text w-100" id="about" style="overflow:auto;" rows="7"></textarea>
+                        <label for="aboutmeTexto" class="form-label"><i>Algo más sobre mí</i></label>
+                        <textarea class="text w-100" id="aboutmeTexto" style="overflow:auto;" rows="7"></textarea>
                       </div>
-                      <div class="text-center">
-                        <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                        <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                        <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                        <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-                      </div>
-                    </form>
                </div>
+               <!--cierre body del modal-->
+               <div class="text-center">
+                <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+                <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+                <button type="submit" class="btn"><i class="fa-solid fa-circle-check"></i></button>
+                <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+              </form>
 <!----------------------------------->                
                 <!--<div class="modal-footer">
                  <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
@@ -41,6 +46,6 @@
        </div>
       </div>
 
+    </div>
   </div>
-</div>
 </div>

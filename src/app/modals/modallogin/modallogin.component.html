@@ -12,12 +12,12 @@
            <div class="contenido-login">
              <div class="row">
                <div class="col armado-login">
-                <form  [formGroup]="login_form" (ngSubmit)="onSubmit($event)">
+                <form  [formGroup]="login_form" (ngSubmit)="submit()">
                  <div class="modal-body">
                      
                        <div class="mb-3">
-                         <label for="email" class="form-label col-12">Email</label>
-                         <input type="email" formControlName="email" id="email" placeholder="nombre@correo.com" class="col-12" aria-describedby="emailHelp">
+                         <label for="emailLogin" class="form-label col-12">Email</label>
+                         <input type="email" formControlName="email" id="emailLogin" placeholder="nombre@correo.com" class="col-12" [class.border-danger]="MailInvalid" aria-describedby="emailHelp">
                        </div>
                        <!--por si hay error al completar datos en el form (controladores en el .ts)-->
                        <div *ngIf="Mail?.errors  && Mail?.touched" class="mb-4">    
@@ -26,8 +26,8 @@
                        </div>
                       <!------------------>
                        <div class="mb-3">
-                         <label for="password" class="form-label col-12">Password</label>
-                         <input type="password" formControlName="password" id="password" placeholder="Ingresá tu contraseña" class="col-12">
+                         <label for="passwordLogin" class="form-label col-12">Password</label>
+                         <input type="password" formControlName="password" id="passwordLogin" placeholder="Ingresá tu contraseña" class="col-12" [class.border-danger]="PasswordInvalid">
                        </div>
 
                        <!--si hay error, ver .ts-->
@@ -35,17 +35,18 @@
                         <small *ngIf="Password?.hasError('required')" class="error text-small"><i>El password es requerido.</i></small>
                         <small *ngIf="Password?.hasError('minLength')" class="error text-small"><i>El password debe tener más de 8 caracteres.</i></small>
                        </div>
+                </div>
 
-                       <div class="modal-footer">
-                        <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/index"><i class="fa-solid fa-circle-xmark"></i></a></button>
-                        <button type="button" type="submit" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
-                       </div>
+                 <div class="modal-footer">
+                  <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/index"><i class="fa-solid fa-circle-xmark"></i></a></button>
+                  <button type="submit" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
+                 </div>
 
-                       <div class="txt-small">
-                        <small><i>Si no tenés cuenta, <strong><a routerLink="#modalRegister">registrate</a></strong>.</i></small>
-                       </div>
+                 <div class="txt-small">
+                  <!-- <button class="btn btn-primary" data-bs-target="#modalRegister" data-bs-toggle="modal">Open second modal</button> -->
+                  <small><i>Si no tenés cuenta, <strong><a data-bs-target="#modalRegister" data-bs-toggle="modal">registrate</a></strong>.</i></small>
+                  
 
-                    
                  </div>
                 </form>
                </div>

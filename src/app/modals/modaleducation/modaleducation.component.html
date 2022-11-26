@@ -1,52 +1,62 @@
 <!--Modal TEACHING-->
 <div class="modal fade" id="modalEducation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
   <!----------------------------------->
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModal"></h5>
-        
+        </div>
   
         <div class="container">
   <!--LUGAR 1-->
-             <div class="row">
-               <div class="col">
+          <div class="row">
+            <div class="col">
+                <form name="educationForm">
+
                  <div class="modal-body">
-                    <form>
+
+                  <select class="form-select" id="educationId">
+                    <option selected>Seleccionar Education Experience</option>
+                    <option value="1">ID1</option>
+                    <option value="2">ID2</option>
+                    <option value="3">ID3</option>
+                    <option value="4">ID4</option>
+                  </select>
+                    
                         <div class="mb-3">
-                          <label for="carreraUno" class="form-label"><strong>Carrera 1</strong></label>
-                          <input type="text" class="form-control" id="carreraUno">
+                          <label for="educationCarrera" class="form-label mt-3"><i>Carrera</i></label>
+                          <input type="text" class="form-control" id="educationCarrera">
                         </div>
                         <div class="mb-3">
-                          <label for="lugarUno" class="form-label">Institución</label>
-                          <input type="text" class="form-control" id="lugarUno">
+                          <label for="educationLugar" class="form-label"><i>Institución</i></label>
+                          <input type="text" class="form-control" id="educationLugar">
                         </div>
                         <div class="mb-3">
-                          <label for="fechaUno" class="form-label">Inicio - Fin</label>
-                          <input type="text" class="form-control" id="fechaUno">
+                          <label for="educationFecha" class="form-label"><i>Inicio - Fin</i></label>
+                          <input type="text" class="form-control" id="educationFecha">
                         </div>
                         <div class="mb-3">
-                          <label for="descripcionUno" class="form-label">Descripción</label>
-                          <textarea class="text w-100" id="descripcionUno" style="overflow:auto;" rows="7"></textarea>
-                        </div>
-                      </form>
-                        <div class="text-center">
-                          <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
+                          <label for="educationDescripcion" class="form-label"><i>Descripción</i></label>
+                          <textarea class="text w-100" id="educationDescripcion" style="overflow:auto;" rows="7"></textarea>
                         </div>
                  </div>
+                 <div class="text-center">
+                  <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                </form>
   <!----------------------------------->                
                   <!--<div class="modal-footer">
                    <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
                    <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
                   </div>-->
-               </div>
-             </div>
+          </div>
+        </div>
   
   <!--LUGAR 2-->
-             <div class="row">
+ <!--             <div class="row">
               <div class="col">
                 <div class="modal-body">
                     <form>
@@ -73,17 +83,18 @@
                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
                        </div>
-                </div>
+                </div> -->
   <!----------------------------------->                
                  <!--<div class="modal-footer">
                   <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
                   <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
                  </div>-->
-              </div>
-            </div>
+
+        <!--       </div>
+            </div> -->
   
   <!--LUGAR 3-->
-            <div class="row">
+           <!--  <div class="row">
               <div class="col">
                 <div class="modal-body">
                     <form>
@@ -110,17 +121,18 @@
                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
                        </div>
-                </div>
+                </div> -->
             <!----------------------------------->                
                  <!--<div class="modal-footer">
                   <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
                   <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
                  </div>-->
-              </div>
-            </div>
+
+           <!--    </div>
+            </div> -->
   
   <!--LUGAR 4-->
-            <div class="row">
+           <!--  <div class="row">
                 <div class="col">
                     <div class="modal-body">
                       <form>
@@ -147,16 +159,16 @@
                              <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
                              <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
                            </div>
-                    </div>
+                    </div> -->
   <!----------------------------------->                
        <!--<div class="modal-footer">
         <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
         <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
        </div>-->
-                </div>
-            </div>
-  
-        </div>
+
+    </div>
+  </div>
+</div>
   
   
   

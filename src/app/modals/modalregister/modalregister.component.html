@@ -1,4 +1,4 @@
-<div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="modalRegister" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
 
@@ -13,29 +13,29 @@
              <div class="row">
 
                <div class="col armado-login">
+                <form  [formGroup]="register_form" (ngSubmit)="onSubmit($event)">
                  <div class="modal-body">
-                     <form>
+                     
                        <div class="mb-3">
-                         <label for="InputNombre" class="form-label">Nombre</label>
-                         <input type="text" class="form-control" id="InputNombre" placeholder="Tus datos son confidenciales" aria-describedby="nombreHelp">
+                         <label for="usernameRegistro" class="form-label col-12">Username</label>
+                         <input type="text" formControlName="username" id="usernameRegistro" placeholder="Tus datos son confidenciales" aria-describedby="nombreHelp">
                        </div>
                        <div class="mb-3">
-                         <label for="InputEmail" class="form-label">Email</label>
-                         <input type="email" class="form-control" id="InputEmail" placeholder="Tus datos son confidenciales" aria-describedby="emailHelp">
+                         <label for="emailRegistro" class="form-label col-12">Email</label>
+                         <input type="email" formControlName="email" id="emailRegistro" placeholder="Tus datos son confidenciales" aria-describedby="emailHelp">
                        </div>
                        <div class="mb-3">
-                         <label for="InputPassword" class="form-label">Password</label>
-                         <input type="password" class="form-control" id="InputPassword"placeholder="Tus datos son confidenciales" >
+                         <label for="passwordRegistro" class="form-label col-12">Password</label>
+                         <input type="password" formControlName="password" id="passwordRegistro" placeholder="Tus datos son confidenciales" >
                        </div>
-
-                       <div class="modal-footer">
-                        <button type="button" class="btn" data-bs-dismiss="modal" data-bs-target="#my-modal"><i class="fa-solid fa-circle-xmark"></i></button>
-                         <button type="button" class="btn"><i class="fa-solid fa-circle-check"></i></button>
-                         </div>
-
-                     </form>
                  </div>
-                   <small>Si ya tenés cuenta, <a routerLink="#modalLogin">ingresá</a>.</small>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal" data-bs-target="#my-modal"><i class="fa-solid fa-circle-xmark"></i></button>
+                   <button type="submit" class="btn"><i class="fa-solid fa-circle-check"></i></button>
+                   </div> 
+                   <small>Si ya tenés cuenta, <a routerLink="/modalLogin">ingresá</a>.</small>
+                  </form>
                </div>
              
              </div>

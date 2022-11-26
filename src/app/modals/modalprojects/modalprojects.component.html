@@ -1,58 +1,70 @@
 <!--Modal SKILLS-->
 <div class="modal fade" id="modalProjects" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
   <!----------------------------------->
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModal"></h5>
-  
-  
-        <div class="container">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal"></h5>
+      </div>
+
+      <div class="container">
 
 <!--PROJECTS-->
   <!--PROJECT 1-->
-  <div class="row">
-    <div class="col">
-      <div class="modal-body">
-        <form>
-            <div class="mb-3">
-              <label for="proyectoUnoImax" class="form-label">Imagen 1</label>
-              <input type="file" class="form-control" id="proyectoUnoImax" placeholder="imagen">
+      <div class="row">
+        <div class="col">
+          <form name="projectForm">
+
+            <div class="modal-body">
+
+              <select class="form-select" id="projectId">
+                <option selected>Seleccionar Project</option>
+                <option value="1">ID1</option>
+                <option value="2">ID2</option>
+                <option value="3">ID3</option>
+              </select>
+
+                  <div class="mb-3">
+                    <label for="projectImagen" class="form-label"><i>Imagen</i></label>
+                    <input type="file" class="form-control" id="projectImagen" placeholder="imagen">
+                  </div>
+                  <div class="mb-3">
+                    <label for="projectTitulo" class="form-label"><i>Proyecto</i></label>
+                    <input type="text" class="form-control" id="projectTitulo">
+                  </div>
+                  <div class="mb-3">
+                    <label for="projectDescripcion" class="form-label"><i>Descripción</i></label>
+                    <textarea class="text w-100" id="projectDescripcion" style="overflow:auto;" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="projectDemo" class="form-label"><i>Demo</i></label>
+                    <input type="text" class="form-control" id="projectDemo" placeholder="URL live demo">
+                  </div>
+                  <div class="mb-3">
+                    <label for="projectRepo" class="form-label"><i>Repositorio</i></label>
+                    <input type="text" class="form-control" id="projectRepo" placeholder="URL repositorio">
+                  </div>
             </div>
-            <div class="mb-3">
-              <label for="proyectoUno" class="form-label">Proyecto 1</label>
-              <input type="text" class="form-control" id="proyectoUno">
+            <!--cierre body del modal-->
+            <div class="text-center">
+              <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+              <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+              <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+              <button type="submit" class="btn"><i class="fa-solid fa-circle-check"></i></button>
+              <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
             </div>
-            <div class="mb-3">
-              <label for="proyectoUnoDescrip" class="form-label">Descripción 1</label>
-              <textarea class="text w-100" id="proyectoUnoDescrip" style="overflow:auto;" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-              <label for="proyectoUnoDemo" class="form-label">Demo 1</label>
-              <input type="text" class="form-control" id="proyectoUnoDemo" placeholder="URL live demo">
-            </div>
-            <div class="mb-3">
-              <label for="proyectoUnoRepo" class="form-label">Repo 1</label>
-              <input type="text" class="form-control" id="proyectoUnoRepo" placeholder="URL repositorio">
-            </div>
+
           </form>
-             <div class="text-center">
-               <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-               <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-               <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-               <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-             </div>
-      </div>
 <!----------------------------------->                
        <!--<div class="modal-footer">
         <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
         <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
        </div>-->
-    </div>
-  </div>
+        </div>
+      </div>
 
     <!--PROJECT 2-->
-    <div class="row">
+<!--     <div class="row">
         <div class="col">
           <div class="modal-body">
             <form>
@@ -83,17 +95,17 @@
                    <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
                    <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
                  </div>
-          </div>
+          </div> -->
     <!----------------------------------->                
            <!--<div class="modal-footer">
             <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
             <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
            </div>-->
-        </div>
-      </div>
+  <!--       </div>
+      </div> -->
 
     <!--PROJECT 3-->
-    <div class="row">
+<!--     <div class="row">
         <div class="col">
           <div class="modal-body">
             <form>
@@ -124,17 +136,18 @@
                    <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
                    <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
                  </div>
-          </div>
+          </div> -->
     <!----------------------------------->                
            <!--<div class="modal-footer">
             <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
             <button type="button" class="btn"><a routerLink="/aadmin"><i class="fa-solid fa-circle-check"></i></a></button>
            </div>-->
-        </div>
-      </div>         
+
+    </div>
+  </div>         
 
  <!--cierre contenedor--> 
-          </div>
+</div>
   
   
   

@@ -29,10 +29,13 @@
     color:#f71aa6;
   }
   .fa-pencil:hover{
-    color:#2c9011;
+    color:#f67010;
   }
   .fa-trash-can-arrow-up:hover{
     color:#ab0c0c;
+  }
+  .fa-solid.fa-circle-check:hover{
+    color:#2c9011;
   }
   .fa-xmark:hover{
     color:#f1ee06;

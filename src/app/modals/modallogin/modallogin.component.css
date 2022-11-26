@@ -19,3 +19,11 @@
   .txt-small{
     margin-bottom: 1.3rem;
   }
+
+  .error{
+    color:#770000
+  }
+  
+  .border-danger{
+    border-color: #770000;
+  }

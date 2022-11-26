@@ -7,8 +7,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: './modallogin.component.html',
   styleUrls: ['./modallogin.component.css']
 })
+
 export class ModalloginComponent implements OnInit {
-  login_form: FormGroup;
+  login_form !: FormGroup;
 
   
 
@@ -27,34 +28,38 @@ export class ModalloginComponent implements OnInit {
   get Mail(){
    return this.login_form.get("email");
   }
-  get MailValid() {
+  get MailInvalid() {
     return this.Mail?.touched && !this.Mail?.valid;
   }
 
   get Password(){
     return this.login_form.get("password");
   }
-  get PasswordValid(){
+  get PasswordInvalid(){
     return this.Password?.touched && !this.Password?.valid;
   }
 
   
  
 
-  onSubmit(event: Event){
+  /* onSubmit(event: Event){
     // Detenemos la propagación o ejecución del comportamiento submit de un form
     event.preventDefault; 
  
     if (this.login_form.valid){
       // Llamamos a nuestro servicio para enviar los datos al servidor
       // También podríamos ejecutar alguna lógica extra
-      console.log("Todo en orden. ¡Enviar formulario!")
+      alert("Todo en orden. Ya puede enviar su formulario.")
     }else{
       // Corremos todas las validaciones para que se ejecuten los mensajes de error en el template     
       this.login_form.markAllAsTouched(); 
     }
  
-  }
+  } */
 
+
+  submit(){
+    console.log(this.login_form.value);
+  }
 
 }

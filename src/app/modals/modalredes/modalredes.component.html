@@ -1,40 +1,57 @@
 <!--Modal REDES-->
 <div class="modal fade" id="modalRedes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
 <!----------------------------------->
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModal"></h5>
+        </div>
 
         <div class="container-fluid">
          <div class="login-base">
            <div class="contenido-login">
              <div class="row">
                <div class="col armado-login">
-                 <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                          <label for="linkedIn" class="form-label">LinkedIn</label>
-                          <input type="text" class="form-control" id="linkedIn">
-                        </div>
-                        <div class="text-center">
-                          <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-                        </div>
-                        <div class="mb-3 mt-3">
+                <form name="redesForm">
+
+                  <div class="modal-body">
+                    
+                    <select class="form-select" id="redesId">
+                      <option selected>Seleccionar Red</option>
+                      <option value="1">ID1</option>
+                      <option value="2">ID2</option>
+                    </select>
+
+                    <div class="mb-3">
+                      <label for="redNombre" class="form-label"><i>Nombre</i></label>
+                      <input type="text" class="form-control" id="redNombre">
+                    </div>
+                    <div class="mb-3">
+                      <label for="redUrl" class="form-label"><i>URL</i></label>
+                      <input type="text" class="form-control" id="redUrl">
+                    </div>
+
+                  </div>
+                    <!--cierre body del modal-->
+                    <div class="text-center">
+                      <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                      <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+                      <button type="submit" class="btn"><i class="fa-solid fa-circle-check"></i></button>
+                      <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                        <!-- <div class="mb-3 mt-3">
                           <label for="github" class="form-label">GitHub</label>
                           <input type="text" class="form-control" id="github">
                         </div>
-                        <div class="text-center">
-                          <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
-                          <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
-                        </div>
-                      </form>
-                 </div>
+                 
+                 <div class="text-center">
+                  <button type="button" class="btn"><i class="fa-solid fa-plus"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-trash-can-arrow-up"></i></button>
+                  <button type="button" class="btn"><i class="fa-solid fa-xmark"></i></button>
+                </div> -->
+                </form>
 <!----------------------------------->                
                   <!--<div class="modal-footer">
                    <button type="button" class="btn" data-bs-target="#my-modal" data-bs-dismiss="modal"><a routerLink="/aadmin"><i class="fa-solid fa-circle-xmark"></i></a></button>
@@ -49,4 +66,4 @@
   
     </div>
   </div>
-  </div>
+</div>
